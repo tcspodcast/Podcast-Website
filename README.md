@@ -1,2 +1,2 @@
 # Podcast-Website
-Website for The Concessions Stand sports podcast
+Website for The Concession Stand sports podcast
