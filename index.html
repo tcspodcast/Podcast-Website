@@ -44,8 +44,16 @@
 			<h4>36:28</h4>
 		</div>
 
+		<script>
+			function play(){
+				 var audio = document.getElementById("audio");
+				 audio.play();
+						   }
+		</script>
+
 		<div class="player">
-			<i class="fa fa-pause-circle" aria-hidden="true"></i>
+			<i class="fa fa-play-circle" aria-hidden="true" value="PLAY" onclick="play()"></i>
+			<audio id="audio" src="./images/semi.mp3" ></audio>
 			<div class="forward">
 				<i class="fa fa-forward" aria-hidden="true"></i>		
 			</div>
